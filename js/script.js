@@ -12,11 +12,23 @@ const products = [
     { id: 10, title: "Custom Development", description: "Solusi sesuai kebutuhan spesifik.", image: "images/product-10.jpg", price: "Konsultasi" }
 ];
 
+// DATA PORTFOLIO (DITAMBAH MENJADI 6 ITEM)
 const portfolio = [
-    { id: 1, title: "Dashboard Fintech", client: "PT. FinTech Indonesia", description: "Platform analitik real-time.", image: "images/portfolio-1.jpg" },
-    { id: 2, title: "E-Commerce Fashion", client: "Fashion House ID", description: "Toko online premium.", image: "images/portfolio-2.jpg" }
+    { id: 1, title: "Dashboard Fintech", client: "PT. Keuangan Digital Indonesia", description: "Platform analitik real-time untuk monitoring transaksi keuangan.", image: "images/portfolio-1.jpg" },
+    { id: 2, title: "E-Commerce Fashion", client: "Fashion House ID", description: "Toko online premium dengan integrasi payment gateway.", image: "images/portfolio-2.jpg" },
+    { id: 3, title: "Corporate Website", client: "PT. Konstruksi Jaya", description: "Website perusahaan profil bisnis profesional.", image: "images/portfolio-3.jpg" },
+    { id: 4, title: "Healthcare App", client: "Klinik Sehat Sentosa", description: "Aplikasi manajemen klinik dan janji temu dokter.", image: "images/portfolio-4.jpg" },
+    { id: 5, title: "Real Estate Portal", client: "Property ID", description: "Platform listing properti dengan fitur virtual tour.", image: "images/portfolio-5.jpg" },
+    { id: 6, title: "Education Platform", client: "Bimbel Cerdas", description: "Sistem belajar online dengan fitur live streaming.", image: "images/portfolio-6.jpg" }
 ];
 
+const team = [
+    { name: "Alexander Zheng", role: "Founder & CEO", image: "images/team-1.jpg" },
+    { name: "Sarah Wijaya", role: "Lead Developer", image: "images/team-2.jpg" },
+    { name: "Michael Pratama", role: "Design Director", image: "images/team-3.jpg" }
+];
+
+// ... sisa kode JS tetap sama ...
 const team = [
     { name: "Alexander Zheng", role: "Founder & CEO", image: "images/team-1.jpg" },
     { name: "Sarah Wijaya", role: "Lead Developer", image: "images/team-2.jpg" },
